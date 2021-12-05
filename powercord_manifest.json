@@ -1,0 +1,9 @@
+{
+    "name": "Noir",
+    "description": "A Noir version of Discord.",
+    "version": "1.0.0",
+    "author": "yako#8658",
+    "license": "MIT",
+	"theme": "main.css",
+    "splashTheme": "splash.css"
+}
