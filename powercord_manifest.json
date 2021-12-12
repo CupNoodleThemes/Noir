@@ -4,6 +4,6 @@
     "version": "1.0.0",
     "author": "yako#8658",
     "license": "MIT",
-	"theme": "noir.theme.css",
+	"theme": "noir.css",
     "splashTheme": "splash.css"
 }
