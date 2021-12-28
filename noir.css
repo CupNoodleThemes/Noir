@@ -1073,7 +1073,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 
 /* Maximize, Minimize, Close Buttons */
 .titleBar-AC4pGV>[role="button"] {
-  margin: 3px 0 3px 4px;
+  margin: 3px 0 0px -1px;
   border-radius: 5px;
 }
 .winButton-iRh8-Z > svg {
