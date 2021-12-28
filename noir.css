@@ -990,32 +990,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
     border-radius:100px;
 }
 
-/* Members List */
-.container-2wlB3z {
-  height:645px;
-  position:relative;
-  bottom:65px;
-}
-
-/* Toolbar */
-.container-1r6BKw {
-  width: 865px;
-  background-color:rgb(20, 20, 20)!important;
-  position:relative;
-}
-.iconWrapper-2OrFZ1[aria-label="Inbox"],.iconWrapper-2OrFZ1[aria-label="Help"] {
-  display:none;
-}
-.iconWrapper-2OrFZ1[aria-label="New Group DM"] {
-  position:relative;
-  left:240px;
-}
-.iconWrapper-2OrFZ1[aria-label="Update Ready!"] {
-  position:relative;
-  left:140px;
-  display:none;
-}
-
 /* Spotify Player */
 .panels-j1Uci_:not(:hover)>.powercord-spotify {
   display:none
