@@ -2,7 +2,7 @@
     "name": "Noir",
     "description": "A Noir version of Discord.",
     "version": "1.0.0",
-    "author": "yako#8658",
+    "author": "morg#0179",
     "license": "MIT",
 	"theme": "noir.css",
     "splashTheme": "splash.css"
