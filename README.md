@@ -1,2 +1,2 @@
 # Noir
-Dark, simple theme for the Powercord Client. Will be released in a year(**?**)
+Dark, simple theme for discord. Will be released in a year(**?**)
