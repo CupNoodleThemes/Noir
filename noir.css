@@ -8,6 +8,7 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url('https://kckarnige.github.io/transparent-menus/base.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @font-face {
   font-family: 'Noir';
@@ -39,6 +40,7 @@
 body {
   background: linear-gradient(45deg, rgb(2, 2, 2), rgb(19, 19, 19));
 }
+
 /* Font */
 * {
   font-family:Inter;
@@ -652,18 +654,22 @@ ul[class*="channelAttachmentArea-"] {
 .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j pre {
   max-width: unset;
 }
-.groupStart-23k01U.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j {
-  border-top-left-radius: 0;
-}
 .groupStart-23k01U.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j::before {
   content: '';
   display: block;
   border-style: solid;
+  position: absolute;
+  top: 0;
+}
+.groupStart-23k01U.cozyMessage-3V1Y8y[data-is-author-self="false"] .contents-2mQqc9 > .markup-2BOw-j::before {
+  left: calc(var(--bubble-arrow-size) * -1);
   border-width: 0 var(--bubble-arrow-size) var(--bubble-arrow-size) 0;
   border-color: transparent var(--bubble-color) transparent transparent;
-  position: absolute;
-  left: calc(var(--bubble-arrow-size) * -1);
-  top: 0;
+}
+.groupStart-23k01U.cozyMessage-3V1Y8y[data-is-author-self="true"] .contents-2mQqc9 > .markup-2BOw-j::before {
+  right: calc(var(--bubble-arrow-size) * -1);
+  border-width: 0 0 var(--bubble-arrow-size) var(--bubble-arrow-size);
+  border-color: transparent transparent transparent var(--bubble-color);
 }
 .scrollerInner-2YIMLh [data-is-author-self="true"] {
   transform: scaleX(-1) !important;
@@ -757,7 +763,36 @@ ul[class*="channelAttachmentArea-"] {
   background: var(--background-tertiary);
   border-radius: var(--radius-secondary) 0px var(--radius-secondary) var(--radius-secondary);
 }
+.groupStart-23k01U.cozyMessage-3V1Y8y[data-is-author-self="false"] .contents-2mQqc9 > .markup-2BOw-j {
+    border-top-left-radius: 0;
+}
+.groupStart-23k01U.cozyMessage-3V1Y8y[data-is-author-self="true"] .contents-2mQqc9 > .markup-2BOw-j {
+    border-top-right-radius: 0;
+}
+.groupStart-23k01U.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j::before {
+    content: '';
+    display: block;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.groupStart-23k01U.cozyMessage-3V1Y8y[data-is-author-self="false"] .contents-2mQqc9 > .markup-2BOw-j::before {
+    left: calc(var(--bubble-arrow-size) * -1);
+    border-width: 0 var(--bubble-arrow-size) var(--bubble-arrow-size) 0;
+    border-color: transparent var(--bubble-color) transparent transparent;
+}
+.groupStart-23k01U.cozyMessage-3V1Y8y[data-is-author-self="true"] .contents-2mQqc9 > .markup-2BOw-j::before {
+    right: calc(var(--bubble-arrow-size) * -1);
+    border-width: 0 0 var(--bubble-arrow-size) var(--bubble-arrow-size);
+    border-color: transparent transparent transparent var(--bubble-color);
+}
 
+.groupStart-23k01U.cozyMessage-3V1Y8y[data-is-author-self="false"] .contents-2mQqc9 > .markup-2BOw-j {
+  border-top-left-radius: 0;
+}
+.groupStart-23k01U.cozyMessage-3V1Y8y[data-is-author-self="true"] .contents-2mQqc9 > .markup-2BOw-j {
+  border-top-right-radius: 0;
+}
 
 /* File Icon */
 .audioMetadata-3zOuGv::before {
