@@ -20,26 +20,47 @@
 @import url('https://kckarnige.github.io/transparent-menus/base.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 @font-face {
   font-family: 'Noir';
   src: url('Noir.woff') format('woff');
 }
 :root {
+	/* Radial Status */
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/*dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+  --rs-small-width: 2px; /* Thickness of status border for members list/*dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+	
+	/* Horizontal Server List */
   --server-size: 45px;
   --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
   --server-container: calc(var(--server-size) + 20px);
+	
+	/* Powercord Plugin Cards */
   --card-height: 290px;
   --card-width: 1000px;
   --card-background-color: var(--deprecated-card-bg);
   --card-button-color: var(--brand-experiment);
   --max-previews: 3;
+	
+	/* Chat Bubbles */
   --bubble-color: #111111;
   --bubble-padding: 5px 8px;
   --bubble-arrow-size: 5px;
-  --settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
-	--settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
-	--settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
+														*/
 }
 
 #app-mount {
