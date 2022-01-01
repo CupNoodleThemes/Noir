@@ -1,11 +1,11 @@
 /**
-* @name Noir
+* @name ForestFrost
 * @author morg#0179, KNOCKDEMPUT#9568
 * @authorId 812815155288473630
 * @description A Noir version of Discord
 * @invite rHvmSrkPdM
 * @source https://github.com/CupNoodleThemes/Noir
-* @updateUrl https://raw.githubusercontent.com/CupNoodleThemes/Noir/main/noir.css
+* @updateUrl https://github.com/CupNoodleThemes/Noir/blob/main/noir.css
 * @version 0.1
 */
 
@@ -60,7 +60,6 @@
   --bubble-color: #111111;
   --bubble-padding: 5px 8px;
   --bubble-arrow-size: 5px;
-														*/
 }
 
 #app-mount {
