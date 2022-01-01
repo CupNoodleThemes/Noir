@@ -1,7 +1,7 @@
 {
     "name": "Noir",
     "description": "A Noir version of Discord.",
-    "version": "1.0.0",
+    "version": "0.1",
     "author": "morg#0179, KNOCKDEMPUT#9568",
     "license": "MIT",
 	"theme": "noir.css",
