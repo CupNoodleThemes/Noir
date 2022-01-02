@@ -28,7 +28,7 @@
 }
 @font-face {
   font-family: 'InterNS';
-  src: url('./InterNS.woff') format('woff');
+  src: url('https://cdn.discordapp.com/attachments/859292111898804236/927138555468341278/InterNS.woff') format('woff');
 }
 
 :root {
