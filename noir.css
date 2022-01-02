@@ -28,7 +28,7 @@
 }
 @font-face {
   font-family: 'My Font Regular';
-  src: url('InterNS.woff') format('woff');
+  src: url('InterNS.otf') format('opentype');
 }
 
 :root {
@@ -84,11 +84,6 @@ body {
 .channelName-2YrOjO,.autocompleteRowContent-1AMstF,.wrapper-3WhCwL#text,.span[data-slate-object="inline"] {
   font-family:'My Font Regular'!important;
   text-transform:capitalize;
-}
-
-.panels-j1Uci_, .sidebar-2K8pFh {
-  display: flex!important;
-  flex-direction: column-reverse!important;
 }
 
 /* Invites */
@@ -1073,7 +1068,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   border-radius:20px;
 }
 
-/* User Modal (bottom left) */
+/* User Modal */
 .container-1taM1r{
   margin: 10px;
   margin-bottom: 0
@@ -1085,6 +1080,10 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   margin: 10px;
   border-radius:20px;
   position:relative;
+}
+.panels-j1Uci_, .sidebar-2K8pFh {
+  display: flex!important;
+  flex-direction: column-reverse!important;
 }
 
 /* Nitro Settings Icon */
