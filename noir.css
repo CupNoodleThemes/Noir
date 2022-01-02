@@ -27,8 +27,8 @@
   src: url('Noir.woff') format('woff');
 }
 @font-face {
-  font-family: 'InterNS';
-  src: url('https://cdn.discordapp.com/attachments/859292111898804236/927138555468341278/InterNS.woff') format('woff');
+  font-family: 'My Font Regular';
+  src: url('InterNS.woff') format('woff');
 }
 
 :root {
@@ -82,7 +82,7 @@ body {
   font-family:Inter;
 }
 .channelName-2YrOjO {
-  font-family:'InterNS'!important;
+  font-family:'My Font Regular'!important;
 }
 
 /* Invites */
