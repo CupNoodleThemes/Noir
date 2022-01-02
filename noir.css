@@ -81,9 +81,14 @@ body {
 * {
   font-family:Inter;
 }
-.channelName-2YrOjO,.autocompleteRowContent-1AMstF,.wrapper-3WhCwL > * {
+.channelName-2YrOjO,.autocompleteRowContent-1AMstF,.wrapper-3WhCwL#text,.span[data-slate-object="inline"] {
   font-family:'My Font Regular'!important;
   text-transform:capitalize;
+}
+
+.panels-j1Uci_, .sidebar-2K8pFh {
+  display: flex!important;
+  flex-direction: column-reverse!important;
 }
 
 /* Invites */
