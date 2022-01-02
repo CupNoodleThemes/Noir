@@ -81,7 +81,7 @@ body {
 * {
   font-family:Inter;
 }
-.channelName-2YrOjO,.autocompleteRowContent-1AMstF {
+.channelName-2YrOjO,.autocompleteRowContent-1AMstF,.wrapper-3WhCwL[role="link"] {
   font-family:'My Font Regular'!important;
   text-transform:capitalize;
 }
