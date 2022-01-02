@@ -26,6 +26,11 @@
   font-family: 'Noir';
   src: url('Noir.woff') format('woff');
 }
+@font-face {
+  font-family: 'InterNS';
+  src: url('InterNS.woff') format('woff');
+}
+
 :root {
 	/* Radial Status */
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/*dms | MUST end in px */
@@ -75,6 +80,9 @@ body {
 /* Font */
 * {
   font-family:Inter;
+}
+.channelName-2YrOjO {
+  font-family:InterNS;
 }
 
 /* Invites */
