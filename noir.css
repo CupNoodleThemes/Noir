@@ -70,7 +70,8 @@ body {
 * {
   font-family:Inter;
 }
-.channelName-2YrOjO,.autocompleteRowContent-1AMstF,.wrapper-3WhCwL#text,.span[data-slate-object="inline"],.textArea-12jD-V,.textAreaSlate-1ZzRVj,.slateContainer-3Qkn2x {
+.channelName-2YrOjO,.autocompleteRowContent-1AMstF,.wrapper-3WhCwL#text,.span[data-slate-object="inline"],
+.fontDisplay-1dagSA {
   font-family:'My Font Regular'!important;
   text-transform:capitalize;
 }
