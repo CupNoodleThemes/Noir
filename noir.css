@@ -13,11 +13,11 @@
 
 @font-face {
   font-family: 'Noir';
-  src: url('Noir.woff') format('woff');
+  src: url('https://cxmmiemorg.github.io/external-files/Noir.woff') format('woff');
 }
 @font-face {
   font-family: 'My Font Regular';
-  src: url('InterNS.otf') format('opentype');
+  src: url('https://cxmmiemorg.github.io/external-files/InterNS.otf') format('opentype');
 }
 
 :root {
