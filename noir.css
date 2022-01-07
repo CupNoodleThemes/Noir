@@ -1152,7 +1152,61 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   background-color: rgba(0, 202, 78, 0.5);
 }
 
-/* User popout */
+/* User Popout (mr_miner's snippet helped with this) */
+.headerTop-3vNv-a, .rolesList-1geHY1, .headerTextNormal-2mGWX3, .customStatus-oN4ZZY, .aboutMeTitle-1IYtPE,
+.text-37NqbO > *,.nameTag-ECvD8P > * {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.avatarWrapperNormal-26WQIb {
+  position: absolute;
+  left: 33%;
+}
+.avatar-3W3CeO {
+  position:absolute;
+  left:30%;
+}
+.avatar-AvHqJA {
+  position:absolute;
+  left:38%;
+}
+.profileBadges-ohc0Vu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100px;
+  transform: translateY(-8px);
+  position: absolute;
+  transform: translate(-250px);
+}
+.badgeList-1R1WgZ {
+  display:flex;
+  flex-direction:column;
+  max-height:200px;
+  transform:translate(-150px);
+}
+.tabBarContainer-37hZsr {
+  align-items:center;
+  display:flex;
+  justify-content:center;
+}
+.userPopout-xaxa6l .input-cIJ7To, .userInfoSection-q_35fn > *, .aboutMeSection-1Fw5Ia, .customStatus-1COQYu, .bodyTitle-1ySSKn, .textarea-2r0oV8, .marginBottom8-AtZOdT.size14-e6ZScH{
+  text-align: center;
+}
+.avatar-AvHqJA[data-user-id="586369284272554032"] {
+    top: -78px;
+}
+.avatar-AvHqJA[data-user-id="586369284272554032"]::before {
+    content: "Cup Noodle Developer";
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
 
 /* Context Menu */
 .menu-3sdvDG {
