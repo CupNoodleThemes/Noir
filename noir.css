@@ -1252,8 +1252,12 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   width: 0px;
   transition: all 0.2s ease-in-out;
 }
-
 .panels-j1Uci_ > .container-3baos1:hover .flex-1xMQg5 > :not(:last-child) {
   opacity: 100% !important;
   width: 32px;
+}
+
+/* Search */
+#popout_10585 {
+  background-color:rgb(12, 12, 12);
 }
