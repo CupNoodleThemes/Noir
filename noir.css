@@ -1099,15 +1099,15 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   display:none;
 }
 
-  /* Titlebar */
-  .titleBar-AC4pGV {
-    justify-content: start;
-    flex-direction: row;
-    height: 30px;
-  } 
-  .wordmarkWindows-1v0lYD {
-    background-color:rgb(2, 2, 2);
-  }
+/* Titlebar */
+.titleBar-AC4pGV {
+  justify-content: start;
+  flex-direction: row;
+  height: 30px;
+} 
+.wordmarkWindows-1v0lYD {
+ background-color:rgb(2, 2, 2);
+}
 
 /* Maximize, Minimize, Close Buttons */
 .titleBar-AC4pGV>[role="button"] {
@@ -1195,17 +1195,23 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .userPopout-xaxa6l .input-cIJ7To, .userInfoSection-q_35fn > *, .aboutMeSection-1Fw5Ia, .customStatus-1COQYu, .bodyTitle-1ySSKn, .textarea-2r0oV8, .marginBottom8-AtZOdT.size14-e6ZScH{
   text-align: center;
 }
+
+/* Cup Noodle Theme Developers */
 .avatar-AvHqJA[data-user-id="586369284272554032"] {
     top: -78px;
 }
 .avatar-AvHqJA[data-user-id="586369284272554032"]::before {
     content: "Cup Noodle Developer";
     position: absolute;
-    width: 100%;
-    bottom: -25px;
+    width: 214px;
+    bottom: -28px;
+    left:-45px;
+    background-color:rgb(27, 27, 27);
+    border-radius:7px;
+    height:21px;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Context Menu */
