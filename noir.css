@@ -1259,5 +1259,21 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 
 /* Search */
 #popout_10585 {
-  background-color:rgb(12, 12, 12);
+  background-color:rgb(12, 12, 12)!important;
+}
+
+/* Theme Buttons */
+#app-mount .container-3auIfb, #app-mount .bd-switch-body {
+  width: 20px;
+  height: 20px;
+  background: transparent !important;
+}
+#app-mount .container-3auIfb .slider-TkfMQL, #app-mount .bd-switch-body .bd-switch-slider {
+  left: -6px !important;
+}
+#app-mount .container-3auIfb .slider-TkfMQL > rect, #app-mount .bd-switch-body .bd-switch-slider rect {
+  height: 20px !important;
+  width: 20px !important;
+  rx: 5;
+  fill: var(--background-tertiary);
 }
