@@ -1032,13 +1032,13 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .winButtonClose-3Q8ZH5:hover::after {
   background-color: rgba(255, 96, 92, 0.5);
 }
-.winButtonMinMax-PBQ2gm[aria-label="Maximize"]::after {
+.winButtonMinMax-3RsPUg[aria-label="Maximize"]::after {
   background-color: #FFBD44;
 }
-.winButtonMinMax-PBQ2gm[aria-label="Maximize"]:hover::after {
+.winButtonMinMax-3RsPUg[aria-label="Maximize"]:hover::after {
   background-color: rgba(255, 189, 68, 0.5);
 }
-.winButtonMinMax-PBQ2gm[aria-label="Minimize"]::after {
+.winButtonMinMax-3RsPUg[aria-label="Minimize"]::after {
   background-color: #00CA4E;
 }
 .winButtonMinMax-3RsPUg[aria-label="Minimize"]:hover::after {
