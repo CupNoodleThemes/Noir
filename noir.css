@@ -559,82 +559,6 @@ body.foldercontentopened .base-2jDfDU {
  width: auto;
 }
 
-/* Loading Animation by Freeplay */
-[class*="blob-"]:nth-child(1),
-[style*="opacity: 0.03"],
-[style*="opacity: 0.08"] {
-  animation: fadeAnim 0.7s 0.1s infinite alternate !important;
-}
-[class*="blob-"]:nth-child(2),
-[style*="opacity: 0.03"],
-[style*="opacity: 0.08"] {
-  animation: fadeAnim 0.7s 0.2s infinite alternate !important;
-}
-[class*="blob-"]:nth-child(3),
-[style*="opacity: 0.03"],
-[style*="opacity: 0.08"] {
-  animation: fadeAnim 0.7s 0.3s infinite alternate !important;
-}
-[class*="blob-"]:nth-child(4),
-[style*="opacity: 0.03"],
-[style*="opacity: 0.08"] {
-  animation: fadeAnim 0.7s 0.4s infinite alternate !important;
-}
-[class*="blob-"]:nth-child(5),
-[style*="opacity: 0.03"],
-[style*="opacity: 0.08"] {
-  animation: fadeAnim 0.7s 0.5s infinite alternate !important;
-}
-[class*="blob-"]:nth-child(6),
-[style*="opacity: 0.03"],
-[style*="opacity: 0.08"] {
-  animation: fadeAnim 0.7s 0.6s infinite alternate !important;
-}
-[class*="blob-"]:nth-child(7),
-[style*="opacity: 0.03"],
-[style*="opacity: 0.08"] {
-  animation: fadeAnim 0.7s 0.7s infinite alternate !important;
-}
-[class*="blob-"]:nth-child(8),
-[style*="opacity: 0.03"],
-[style*="opacity: 0.08"] {
-  animation: fadeAnim 0.7s 0.8s infinite alternate !important;
-}
-[class*="blob-"]:nth-child(9),
-[style*="opacity: 0.03"],
-[style*="opacity: 0.08"] {
-  animation: fadeAnim 0.7s 0.9s infinite alternate !important;
-}
-[class*="blob-"]:nth-child(10),
-[style*="opacity: 0.03"],
-[style*="opacity: 0.08"] {
-  animation: fadeAnim 0.7s 1s infinite alternate !important;
-}
-@keyframes fadeAnim {
-  from {
-    filter: opacity(1);
-  }
-  to {
-    filter: opacity(0.4);
-  }
-}
-
-/* File Upload Animation by GDKID */
-@keyframes expand_attachment_area {
-  from {
-      height: 0;
-  }
-  to {
-      height: 218px;
-  }
-}
-ul[class*="channelAttachmentArea-"] {
-  animation-name: expand_attachment_area;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  color:rgb(77, 2, 77)
-}
-
 /* Text Selection */
 ::selection {
   color: #Adb1b1;
@@ -1239,13 +1163,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   width: 100%;
 }
 
-/* Buttons */
-.button-12Fmur {
-  transition: all 250ms ease-in-out !important;
-}
-.button-12Fmur:hover {
-  transform: translateY(-5px);
-}
 /* Hide User Buttons Until Hover by TheCommieAxolotl */
 .panels-3wFtMD > .container-YkUktl .flex-1xMQg5 > :not(:last-child) {
   opacity: 0% !important;
