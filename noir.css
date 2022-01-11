@@ -1132,6 +1132,11 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   width: 100%;
 }
 
+/* Message Bar */
+.placeholder-1_mJY1 {
+  text-align:center;
+}
+
 /* Theme Buttons */
 #app-mount .container-2nx-BQ, #app-mount .bd-switch-body {
   width: 20px;
