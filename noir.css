@@ -1116,12 +1116,13 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
     content: "Cup Noodle Helper";
     position: absolute;
     width: 185px;
-    bottom: 20px;
+    bottom: 15px;
     left:145px;
     background-color:rgb(27, 27, 27);
     border-radius:7px;
-    height:21px;
+    height:30px;
     text-align: center;
+    padding: 9px 0 2px;
     color: white;
     font-size: 18px;
 }
@@ -1171,3 +1172,14 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   rx: 5;
   fill: var(--background-tertiary);
 }
+
+#app-mount .container-2nx-BQ, #app-mount .bd-switch-body {width: 20px;height: 20px;background: transparent !important;}
+#app-mount .container-2nx-BQ .slider-32CRPX, #app-mount .bd-switch-body .bd-switch-slider {left: -6px !important;}
+#app-mount .container-2nx-BQ .slider-32CRPX > rect, #app-mount .bd-switch-body .bd-switch-slider rect {height: 20px !important;width: 20px !important;x: 4px !important;y: 0px !important;rx: 5;fill: var(--background-tertiary);}
+.layer-2aCOJ3 .container-2McqkF{background-color:rgba(17, 17, 17, 0.589) !important;border: black;border-radius: 10px; backdrop-filter: blur(6px);}
+.theme-dark .option-2KkUJO:after {background: transparent !important;}
+.search-1FM8Qc:not(.open-3y3yI_) .searchBar-zdmu7v { width: 27px; transition: 0.25s; background-color: transparent;}
+.search-1FM8Qc:not(.open-3y3yI_):hover .searchBar-zdmu7v { width: 240px; background-color: var(--background-tertiary);}
+.search-1FM8Qc:not(.open-3y3yI_) .iconContainer-1RqWJj { transform: scale(1.3); transition: 0.25s;}
+.search-1FM8Qc:not(.open-3y3yI_):hover .iconContainer-1RqWJj { transform: scale(1);}
+.icon-18rqoe { color: var(--text-normal)}
