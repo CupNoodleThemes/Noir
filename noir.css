@@ -1103,12 +1103,13 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
     content: "Cup Noodle Developer";
     position: absolute;
     width: 214px;
-    bottom: 20px;
+    bottom: 25px;
     left:145px;
     background-color:rgb(27, 27, 27);
     border-radius:7px;
-    height:21px;
+    height:30px;
     text-align: center;
+    padding: 9px 0 2px;
     color: white;
     font-size: 18px;
 }
@@ -1183,3 +1184,44 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .search-1FM8Qc:not(.open-3y3yI_) .iconContainer-1RqWJj { transform: scale(1.3); transition: 0.25s;}
 .search-1FM8Qc:not(.open-3y3yI_):hover .iconContainer-1RqWJj { transform: scale(1);}
 .icon-18rqoe { color: var(--text-normal)}
+
+.menu-1QACrS {
+  animation: custom-menu-animation 250ms ease;
+  transform-origin: top;
+}
+
+@keyframes custom-menu-animation {
+  0% {
+      transform: scaleY(0);
+  }
+  100% {
+      transform: scaleY(1);
+  }
+}
+
+:root {
+    --color-brand-lighter: transparent;
+}
+.input-2g-os5,
+.scrollableContainer-15eg7h {
+    border-radius: 10px;
+    background-color: #0e0f0f;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    border: 1px solid transparent;
+    outline: none;
+}
+.input-2g-os5:hover,
+.scrollableContainer-15eg7h:hover {
+    border-color: #505050;
+    background-color: #222222;
+    
+    
+}
+.input-2g-os5:focus-within,
+.scrollableContainer-15eg7h:focus-within {
+    background-color: #222222;
+    border-color: var(--color-brand-lighter);
+}
+.scrollableContainer-15eg7h {
+    border: 1px solid transparent;
+}
