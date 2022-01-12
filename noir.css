@@ -1200,7 +1200,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .input-2g-os5,
 .scrollableContainer-15eg7h {
     border-radius: 10px;
-    background-color: #0e0f0f;
+    background-color: #0e0f0f; d
     transition: background-color 0.2s ease, border-color 0.2s ease;
     border: 1px solid transparent;
     outline: none;
