@@ -991,9 +991,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .actionButton-3-B2x-,.discriminator-WV5K5s {
   display:none;
 }
-..listItemContents-2n2Uy9 {
-  border-radius:100px!important;
-}
 
 /* Titlebar */
 .titleBar-1it3bQ {
@@ -1096,12 +1093,13 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .avatar-3QF_VA[data-user-id="586369284272554032"] {
     top: -78px;
 }
-.avatar-3QF_VA[data-user-id="586369284272554032"]::before {
+.avatar-3QF_VA[data-user-id="586369284272554032"]::before,[data-user-id="521340540411838464"]::before,
+[data-user-id="735508452482351176"]::before,[data-user-id="766687700270448690"]::before {
     content: "Cup Noodle Developer";
     position: absolute;
     width: 214px;
-    bottom: -28px;
-    left:-45px;
+    bottom: 20px;
+    left:145px;
     background-color:rgb(27, 27, 27);
     border-radius:7px;
     height:21px;
@@ -1109,7 +1107,11 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
     color: white;
     font-size: 18px;
 }
-
+.relationshipButtons-3ByBpj {
+  position:absolute;
+  right:350px;
+  bottom:0px;
+}
 /* Context Menu */
 .menu-1QACrS {
   overflow:visible!important;
