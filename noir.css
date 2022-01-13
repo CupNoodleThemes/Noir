@@ -1190,12 +1190,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   border-radius:10px!important;
   margin-bottom:5px;
 }
-.layer-2aCOJ3 .container-2McqkF{
-  background-color:rgba(17, 17, 17, 0.589) !important;
-  border: black;
-  border-radius: 10px; 
-  backdrop-filter: blur(6px);
-}
 :root {
     --color-brand-lighter: transparent;
 }
@@ -1240,6 +1234,12 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 /* Compacted Searchbar */
 .theme-dark .option-2KkUJO:after {
 	background: transparent !important;
+}
+.layer-2aCOJ3 .container-2McqkF{
+  background-color:rgba(17, 17, 17, 0.589) !important;
+  border: black;
+  border-radius: 10px; 
+  backdrop-filter: blur(6px);
 }
 .search-1FM8Qc:not(.open-3y3yI_) .searchBar-zdmu7v {
 	width: 27px;
