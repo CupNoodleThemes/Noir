@@ -1170,6 +1170,13 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .placeholder-1_mJY1 {
   text-align:center;
 }
+.scrollableContainer-15eg7h {
+  z-index:9999999!important;
+}
+.clipContainer-31nYlH,.attachedBars-2BCP3l  {
+  border-radius:10px!important;
+  margin-bottom:5px;
+}
 .layer-2aCOJ3 .container-2McqkF{
   background-color:rgba(17, 17, 17, 0.589) !important;
   border: black;
