@@ -1043,6 +1043,16 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   justify-content: center;
   text-align: center;
 }
+.pencilContainer-18TrEJ {
+  background-color:#0e0f0f 0.5;
+  transition: all 1s ease;
+  border: 1px solid transparent;
+  outline:none;
+}
+.pencilContainer-18TrEJ:hover {
+  border-color:#757575;
+  background-color:#222222 0.1;
+}
 .avatarWrapperNormal-ahVUaC {
   position: absolute;
   left: 33%;
@@ -1193,7 +1203,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .scrollableContainer-15eg7h {
     border-radius: 10px;
     background-color: #0e0f0f;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
+    transition: all 0.2s ease;
     border: 1px solid transparent;
     outline: none;
 }
