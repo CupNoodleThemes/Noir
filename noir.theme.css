@@ -9,3 +9,8 @@
 * @version 0.1
 **/
 @import url("https://raw.githubusercontent.com/CupNoodleThemes/Noir/main/noir.css");
+
+/* BetterDiscord Settings Titles */
+.bd-settings-title,.colorMuted-HdFt4q {
+    color:white;
+  }
