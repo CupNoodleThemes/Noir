@@ -1086,9 +1086,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 }
 
 /* Cup Noodle Theme Developers Role thingy */
-.avatar-3QF_VA[data-user-id="586369284272554032"] {
-    top: -78px;
-}
+
 .avatar-3QF_VA[data-user-id="586369284272554032"]::before,.avatar-3QF_VA[data-user-id="521340540411838464"]::before,
 .avatar-3QF_VA[data-user-id="735508452482351176"]::before {
     content: "Cup Noodle Developer";
@@ -1103,20 +1101,34 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
     padding: 9px 0 2px;
     color: white;
     font-size: 18px;
+    transition: all 1s ease;
 }
 .avatar-3QF_VA[data-user-id="766687700270448690"]::before {
-    content: "Cup Noodle Helper";
-    position: absolute;
-    width: 185px;
-    bottom: 15px;
-    left:145px;
-    background-color:rgb(27, 27, 27);
-    border-radius:7px;
-    height:30px;
-    text-align: center;
-    padding: 9px 0 2px;
-    color: white;
-    font-size: 18px;
+  content: "Cup Noodle Helper";
+  transition: all 1s ease;
+  position:absolute;
+  width:185px;
+  bottom:65px;
+  left:175px;
+  background-color:rgb(27, 27, 27);
+  border-radius:7px;
+  height:30px;
+  text-align:center;
+  padding:9px 0 2px;
+  color:white;
+  font-size:18px;
+}
+.avatar-3QF_VA[data-user-id="586369284272554032"]:hover::before {
+    background-color:rgb(14, 14, 14)!important;
+}
+.avatar-3QF_VA[data-user-id="521340540411838464"]:hover::before {
+  background-color:rgb(14, 14, 14)
+}
+.avatar-3QF_VA[data-user-id="735508452482351176"]:hover::before {
+  background-color:rgb(14, 14, 14)
+}
+.avatar-3QF_VA[data-user-id="766687700270448690"]:hover::before {
+  background-color:rgb(14, 14, 14)
 }
 
 /* Context Menu */
