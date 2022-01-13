@@ -15,10 +15,6 @@
   font-family: 'Noir';
   src: url('https://cxmmiemorg.github.io/external-files/Noir.woff') format('woff');
 }
-@font-face {
-  font-family: 'My Font Regular';
-  src: url('https://cxmmiemorg.github.io/external-files/InterNS.otf') format('opentype');
-}
 
 :root {
 	/* Radial Status */
@@ -74,11 +70,6 @@ body {
 /* Font */
 * {
   font-family:Inter;
-}
-.channelName-3KPsGw,.span[data-slate-object="inline"],
-.fontDisplay-3Gtuks {
-  font-family:'My Font Regular'!important;
-  text-transform:capitalize;
 }
 
 /* Invites */
@@ -1167,7 +1158,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 }
 
 /* Message Bar */
-.placeholder-1_mJY1 {
+.placeholder-1_mJY1,.attachedBars-2BCP3l {
   text-align:center;
 }
 .scrollableContainer-15eg7h {
