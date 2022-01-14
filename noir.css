@@ -1,3 +1,14 @@
+/**
+* @name Noir
+* @author morg#0179, KNOCKDEMPUT#9568, carrot#881
+* @authorId 812815155288473630
+* @description A Noir version of Discord
+* @invite knHgcbw9vs
+* @source https://github.com/CupNoodleThemes/Noir/
+* @updateUrl https://github.com/CupNoodleThemes/Noir/blob/main/noir.theme.css
+* @version 0.1
+**/
+
 @import url("https://crearts-community.github.io/Friends-Grid/clients/betterdiscord.css");
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css);
 @import url(https://yakomipumkynz.github.io/theme-warnings/fullscreen-style/dark-mode/fullscreen-style.css);
@@ -954,37 +965,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 }
 .button-12Fmur {
   border-radius:20px;
-  border: 1px solid transparent;
-  outline:none;
-  transition:all 0.2s ease;
-}
-.button-12Fmur:hover {
-  border-color:#2b2b2b;
-}
-.button-12Fmur:hover .contents-3ca1mk {
-  animation: UserModalButtons 0.5s normal ease;
-}
-.container-YkUktl .noWrap-hBpHBz {
-  width: 100px;
-  opacity: 1;
-}
-.button-12Fmur {
-  transition: 0.2s;
-}
-.button-12Fmur:hover {
-  padding-bottom: 0px;
-  transition: 0.2;
-}
-@keyframes UserModalButtons {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
 }
 .panels-3wFtMD{
   margin: 10px;
@@ -1127,10 +1107,11 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 }
 
 /* Cup Noodle Theme Developers Role thingy */
-
 .avatar-3QF_VA[data-user-id="586369284272554032"]::before,.avatar-3QF_VA[data-user-id="521340540411838464"]::before,
 .avatar-3QF_VA[data-user-id="735508452482351176"]::before {
+    animation: Cont 2s;
     content: "Cup Noodle Developer";
+    overflow: hidden;
     position: absolute;
     width: 214px;
     bottom: 65px;
@@ -1145,6 +1126,8 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
     transition: all 1s ease;
 }
 .avatar-3QF_VA[data-user-id="766687700270448690"]::before {
+    animation: Cont 2s;
+    overflow: hidden;
   content: "Cup Noodle Helper";
   transition: all 1s ease;
   position:absolute;
@@ -1160,16 +1143,40 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   font-size:18px;
 }
 .avatar-3QF_VA[data-user-id="586369284272554032"]:hover::before {
-    background-color:rgb(14, 14, 14)!important;
+    width: 260px;
+    animation: Cont 2s;
+    transition:all 0.5s ease;
+    content: "https://discord.gg/eRgtjyzray";
+  background-color:rgb(14, 14, 14)
 }
 .avatar-3QF_VA[data-user-id="521340540411838464"]:hover::before {
+    width: 260px;
+    animation: Cont 3s;
+    transition:all 0.5s ease;
+    content: "https://discord.gg/eRgtjyzray";
   background-color:rgb(14, 14, 14)
 }
 .avatar-3QF_VA[data-user-id="735508452482351176"]:hover::before {
+    width: 260px;
+    animation: Cont 2s;
+    transition:all 0.5s ease;
+    content: "https://discord.gg/eRgtjyzray";
   background-color:rgb(14, 14, 14)
 }
 .avatar-3QF_VA[data-user-id="766687700270448690"]:hover::before {
+    width: 600px;
+    animation: Cont 2s;
+    transition:all 0.5s ease;
+    content: "https://discord.gg/eRgtjyzray";
   background-color:rgb(14, 14, 14)
+}
+@keyframes Cont{
+    from{
+        color: rgb(14,14,14);
+    }
+    to{
+        color:white;
+    }
 }
 
 /* Context Menu */
@@ -1223,14 +1230,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 }
 :root {
     --color-brand-lighter: transparent;
-}
-.content-1gYQeQ {
-  border: 1px solid transparent;
-  outline:none;
-  transition: all 0.2s ease;
-}
-.content-1gYQeQ:hover {
-  border-color:#505050;
 }
 .input-2g-os5,
 .scrollableContainer-15eg7h {
@@ -1300,9 +1299,84 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 	color: var(--text-normal);
 }
 
-/* Members List */
+
+
+.clickable-28SzVr:hover .layout-1qmrhw {
+  background-color: var(--background-modifier-selected);
+  -webkit-transition: background-color 0.17s ease, color 0.17s ease;
+  transition: background-color 0.17s ease, color 0.17s ease;
+}
+.layout-1qmrhw{
+  transition: all 1s ease;
+}
+.modeMuted-2T4MDZ:hover, .wrapper-NhbLHG:hover {
+  border-radius: 20px;
+  background-color: #333333;
+  transition: all 0.8s ease;
+}
+
+.modeMuted-2T4MDZ, .wrapper-NhbLHG {
+  border-radius: 5px;
+  transition: all 0.8s ease;
+}
+
+
+.layer-86YKbF {
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
+  pointer-events: auto !important;
+  will-change: unset;
+}
+
+.animating-1rIrGV.stop-animations {
+  z-index: 100 !important;
+}
+
+.mainContent-20q_Hp:hover {
+  animation: UserModalButtons 0.5s normal ease;}
+.mainContent-20q_Hp .noWrap-hBpHBz {width: 100px;opacity: 1;}
+.mainContent-20q_Hp {transition: 0.2s;}
+.mainContent-20q_Hp:hover {transition: 0.2;}
+@keyframes UserModalButtons {
+  0% {
+    transform: translateY(0px);
+  }
+  45% {
+    transform: translateY(-5px);
+  }
+  90% {
+    transform: translateY(0px);
+  }
+}
+
+.button-12Fmur:hover .contents-3ca1mk {
+  animation: UserModalButtons 0.5s normal ease;
+}
+.container-YkUktl .noWrap-hBpHBz {
+  width: 100px;
+  opacity: 1;
+}
+.button-12Fmur {
+  transition: 0.2s;
+}
+.button-12Fmur:hover {
+  padding-bottom: 0px;
+  transition: 0.2;
+}
+
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+  transition: all 0.8s ease;
+  text-align:center;
+}
+
 .membersWrap-3NUR2t,
-.membersWrap-3NUR2t > div {
+.membersWrap-3NUR2t > div,.sidebar-1tnWFu,
+ .sidebar-1tnWFu > div {
+  z-index: 100;
   min-width:60px!important;
   max-width:240px!important;
   width:60px;
@@ -1310,6 +1384,31 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   transition: width .5s;
 }
 .membersWrap-3NUR2t:hover,
-.membersWrap-3NUR2t:hover > div {
+.membersWrap-3NUR2t:hover > div,
+.sidebar-1tnWFu:hover, 
+.sidebar-1tnWFu:hover > div {
   width:240px;
+} 
+
+/* Add server and public servers button(s) */
+.circleIconButton-1VxDrg{
+  transition: all 0.2s ease-in;
+border-width: 2px;
+border-color: #ffffff;
+border-radius: 50%;
+border-style: solid;
+background-color: black;
+}
+.circleIconButton-1VxDrg:hover{
+  transition: all 0.4s ease-in;
+border-width: 2px;
+border-color: #000000;
+border-style: solid;
+background-color: #ffffff;
+}
+.circleIconButton-1VxDrg:nth-child(1){
+color:#ffffff
+}
+.circleIconButton-1VxDrg:hover:nth-child(1){
+color:rgb(0, 0, 0)
 }
