@@ -950,13 +950,30 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   display:none
 }
 
-/* DMs/Channels list */
+/* Sidebar */
 .layout-1qmrhw {
   border-radius:17px;
 }
 .item-3mHhwr[data-item-id="ONLINE"], .item-3mHhwr[data-item-id="ALL"], .item-3mHhwr[data-item-id="PENDING"], .item-3mHhwr[data-item-id="BLOCKED"], .item-3mHhwr[data-item-id="ADD_FRIEND"] {
   border-radius:20px;
 }
+/* Compacted Sidebar */
+.membersWrap-3NUR2t,
+.membersWrap-3NUR2t > div,.sidebar-1tnWFu,
+ .sidebar-1tnWFu > div {
+  z-index: 100;
+  min-width:60px!important;
+  max-width:240px!important;
+  width:170px;
+  min-height: 100%;
+  transition: width .5s;
+}
+.membersWrap-3NUR2t:hover,
+.membersWrap-3NUR2t:hover > div,
+.sidebar-1tnWFu:hover, 
+.sidebar-1tnWFu:hover > div {
+  width:240px;
+} 
 
 /* User Modal */
 .container-1-ERn5{
@@ -1100,11 +1117,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .userPopout-2j1gM4 .input-2g-os5, .userInfoSection-2u2hir > *, .aboutMeSection-PUghFQ, .customStatus-kFfkj5, .bodyTitle-2Az3VQ, .textarea-_59yqs, .marginBottom8-emkd0_.size14-3fJ-ot{
   text-align: center;
 }
-.relationshipButtons-3ByBpj {
-  position:absolute;
-  right:350px;
-  bottom:0px;
-}
 
 /* Cup Noodle Theme Developers Role thingy */
 .avatar-3QF_VA[data-user-id="586369284272554032"]::before,.avatar-3QF_VA[data-user-id="521340540411838464"]::before,
@@ -1143,31 +1155,31 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   font-size:18px;
 }
 .avatar-3QF_VA[data-user-id="586369284272554032"]:hover::before {
-    width: 260px;
+    width: 210px;
     animation: Cont 2s;
     transition:all 0.5s ease;
-    content: "https://discord.gg/eRgtjyzray";
+    content: "i love you <3";
   background-color:rgb(14, 14, 14)
 }
 .avatar-3QF_VA[data-user-id="521340540411838464"]:hover::before {
-    width: 260px;
+    width: 160px;
     animation: Cont 3s;
     transition:all 0.5s ease;
-    content: "https://discord.gg/eRgtjyzray";
+    content: "<3";
   background-color:rgb(14, 14, 14)
 }
 .avatar-3QF_VA[data-user-id="735508452482351176"]:hover::before {
-    width: 260px;
+    width: 160px;
     animation: Cont 2s;
     transition:all 0.5s ease;
-    content: "https://discord.gg/eRgtjyzray";
+    content: "<3";
   background-color:rgb(14, 14, 14)
 }
 .avatar-3QF_VA[data-user-id="766687700270448690"]:hover::before {
     width: 600px;
     animation: Cont 2s;
     transition:all 0.5s ease;
-    content: "https://discord.gg/eRgtjyzray";
+    content: "<3";
   background-color:rgb(14, 14, 14)
 }
 @keyframes Cont{
@@ -1299,8 +1311,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 	color: var(--text-normal);
 }
 
-
-
+/* Friends, etc buttons */
 .clickable-28SzVr:hover .layout-1qmrhw {
   background-color: var(--background-modifier-selected);
   -webkit-transition: background-color 0.17s ease, color 0.17s ease;
@@ -1314,28 +1325,26 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   background-color: #333333;
   transition: all 0.8s ease;
 }
-
 .modeMuted-2T4MDZ, .wrapper-NhbLHG {
   border-radius: 5px;
   transition: all 0.8s ease;
 }
 
-
+/* I legit do not know what the fuck this is -morgan */
 .layer-86YKbF {
   transform: none !important;
   opacity: 1 !important;
 }
-
 .layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
 .layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
   pointer-events: auto !important;
   will-change: unset;
 }
-
 .animating-1rIrGV.stop-animations {
   z-index: 100 !important;
 }
 
+/* User Modal Buttons */
 .mainContent-20q_Hp:hover {
   animation: UserModalButtons 0.5s normal ease;}
 .mainContent-20q_Hp .noWrap-hBpHBz {width: 100px;opacity: 1;}
@@ -1352,7 +1361,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
     transform: translateY(0px);
   }
 }
-
 .button-12Fmur:hover .contents-3ca1mk {
   animation: UserModalButtons 0.5s normal ease;
 }
@@ -1367,28 +1375,10 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   padding-bottom: 0px;
   transition: 0.2;
 }
-
 .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
   transition: all 0.8s ease;
   text-align:center;
 }
-
-.membersWrap-3NUR2t,
-.membersWrap-3NUR2t > div,.sidebar-1tnWFu,
- .sidebar-1tnWFu > div {
-  z-index: 100;
-  min-width:60px!important;
-  max-width:240px!important;
-  width:60px;
-  min-height: 100%;
-  transition: width .5s;
-}
-.membersWrap-3NUR2t:hover,
-.membersWrap-3NUR2t:hover > div,
-.sidebar-1tnWFu:hover, 
-.sidebar-1tnWFu:hover > div {
-  width:240px;
-} 
 
 /* Add server and public servers button(s) */
 .circleIconButton-1VxDrg{
