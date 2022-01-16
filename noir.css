@@ -531,6 +531,10 @@ body.foldercontentopened .base-2jDfDU {
   display: flex;
   flex-wrap: wrap;
   column-gap: 2px;
+} 
+#status-picker {
+  border-radius:20px;
+  background-color:black;
 }
 #status-picker-custom-status,
 #status-picker #status-picker-custom-status+.separator-1So4YB+div {flex: 1 1 100%;}
@@ -559,6 +563,16 @@ body.foldercontentopened .base-2jDfDU {
 #status-picker .mask-2Me5HY {
  height: 50%;
  width: auto;
+}
+#status-picker-invisible {
+  border-top-right-radius:15px;
+}
+#status-picker-online {
+  border-top-left-radius:15px;
+}
+#status-picker-switch-account {
+  border-bottom-right-radius:15px; 
+  border-bottom-left-radius:15px;
 }
 
 /* Text Selection */
