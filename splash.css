@@ -1,5 +1,5 @@
 :root{
-    --background: url("https://i.ibb.co/5k8KYN6/Noir-Splash.png");
+    --background: url("https://raw.githubusercontent.com/cxmmunist/external-files/main/NoirSplash.png");
     --accent: #3f336e;
     --accent-glass: #fff1;
     --text-color: transparent;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Noir';
-    src: url('Noir.woff') format('woff');
+    src: url('https://cxmmunist.github.io/external-files/Noir.woff') format('woff');
   }
 
 /* Main */
