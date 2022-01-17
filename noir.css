@@ -985,6 +985,9 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   text-align: center;
 }
 
+
+
+
 /* Cup Noodle Theme Developers Role thingy */
 .avatar-3QF_VA[data-user-id="586369284272554032"]::before,.avatar-3QF_VA[data-user-id="521340540411838464"]::before,
 .avatar-3QF_VA[data-user-id="735508452482351176"]::before {
@@ -1058,6 +1061,49 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
         color:white;
     }
 }
+
+
+.message-2CShn3[data-author-id="521340540411838464"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us) {
+  color: #1a91db !important;
+  text-decoration: none !important;
+  transition: 1s ease;
+}
+.message-2CShn3[data-author-id="521340540411838464"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us):hover {
+  color: #136ea7 !important;
+}
+.message-2CShn3[data-author-id="586369284272554032"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us) {
+  text-decoration: none !important;
+  color:rgb(182, 41, 182)!important;
+  transition: 1s ease;
+}
+.message-2CShn3[data-author-id="586369284272554032"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us):hover {
+  color:rgb(141, 33, 141)!important;
+}
+  .message-2CShn3[data-author-id="521340540411838464"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us)::after,
+  .message-2CShn3[data-author-id="586369284272554032"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us)::after,
+  .message-2CShn3[data-author-id="735508452482351176"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us)::after,
+  .message-2CShn3[data-author-id="766687700270448690"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us)::after{
+  transition: 1s ease;
+  content:' (Cup Noodle Developer)';
+  color:gray;
+}
+  
+.message-2CShn3[data-author-id="521340540411838464"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us):hover:after,
+.message-2CShn3[data-author-id="586369284272554032"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us):hover:after,
+.message-2CShn3[data-author-id="735508452482351176"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us):hover:after,
+.message-2CShn3[data-author-id="766687700270448690"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us):hover:after{
+  text-shadow: 0 0 5px;
+  transition: 1s ease;
+  color:rgb(255, 255, 255) !important;
+}
+  
+.message-2CShn3[data-author-id="766687700270448690"] .username-h_Y3Us:not(.repliedMessage-3Z6XBG .username-h_Y3Us)::after {
+  content:' (Cup Noodle Helper)';
+}
+
+
+
+
 
 /* Context Menu */
 .menu-1QACrS {
