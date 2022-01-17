@@ -1029,10 +1029,11 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   background-color:rgb(14, 14, 14)
 }
 .avatar-3QF_VA[data-user-id="521340540411838464"]:hover::before {
-    width: 160px;
+    width: 200px;
+    overflow: hidden;
     animation: Cont 3s;
     transition:all 0.5s ease;
-    content: "<3";
+    content: "The depressed mf <3";
   background-color:rgb(14, 14, 14)
 }
 .avatar-3QF_VA[data-user-id="735508452482351176"]:hover::before {
@@ -1198,6 +1199,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 }
 
 /* I legit do not know what the fuck this is -morgan */
+/* ...Fuck, me too morgan -carrot */
 .layer-86YKbF {
   transform: none !important;
   opacity: 1 !important;
@@ -1268,4 +1270,11 @@ color:#ffffff
 }
 .circleIconButton-1VxDrg:hover:nth-child(1){
 color:rgb(0, 0, 0)
+}
+
+/* border radius fix for banners in friends list */
+
+.userInfo-2WpsYG:hover:before{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
