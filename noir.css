@@ -877,10 +877,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .actionButton-3-B2x-,.discriminator-WV5K5s {
   display:none;
 }
-.userInfo-2WpsYG:hover:before{
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
 
 /* Titlebar */
 .titleBar-1it3bQ {
@@ -1041,17 +1037,17 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   background-color:rgb(14, 14, 14)
 }
 .avatar-3QF_VA[data-user-id="735508452482351176"]:hover::before {
-    width: 160px;
+    width: 200px;
     animation: Cont 2s;
     transition:all 0.5s ease;
-    content: "<3";
+    content: "Example";
   background-color:rgb(14, 14, 14)
 }
 .avatar-3QF_VA[data-user-id="766687700270448690"]:hover::before {
-    width: 600px;
+    width: 150px;
     animation: Cont 2s;
     transition:all 0.5s ease;
-    content: "<3";
+    content: "Yeah!";
   background-color:rgb(14, 14, 14)
 }
 @keyframes Cont{
@@ -1274,4 +1270,11 @@ color:#ffffff
 }
 .circleIconButton-1VxDrg:hover:nth-child(1){
 color:rgb(0, 0, 0)
+}
+
+/* border radius fix for banners in friends list */
+
+.userInfo-2WpsYG:hover:before{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
