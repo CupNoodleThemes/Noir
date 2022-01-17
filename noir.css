@@ -877,6 +877,10 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .actionButton-3-B2x-,.discriminator-WV5K5s {
   display:none;
 }
+.userInfo-2WpsYG:hover:before{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
 
 /* Titlebar */
 .titleBar-1it3bQ {
@@ -1270,11 +1274,4 @@ color:#ffffff
 }
 .circleIconButton-1VxDrg:hover:nth-child(1){
 color:rgb(0, 0, 0)
-}
-
-/* border radius fix for banners in friends list */
-
-.userInfo-2WpsYG:hover:before{
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
 }
