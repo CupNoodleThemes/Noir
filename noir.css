@@ -1384,3 +1384,8 @@ color:rgb(0, 0, 0)
 .emptyHintCard-3Btf0V {
   background-color:rgb(19, 19, 19)!important;
 }
+
+/* some centered headers */
+.header-Imy05m,.title-x4dI75 {
+  text-align:center;
+}
