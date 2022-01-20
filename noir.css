@@ -1387,5 +1387,5 @@ color:rgb(0, 0, 0)
 
 /* some centered headers */
 .header-Imy05m,.title-x4dI75 {
-  text-align:center;
+  text-align:center!important;
 }
