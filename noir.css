@@ -21,6 +21,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css");
+
 
 @font-face {
   font-family: 'Noir';
@@ -637,16 +639,11 @@ body.foldercontentopened .base-2jDfDU {
 
 /* Info Section in Settings (bottom) */
 .info-1sUqUG .size12-oc4dx4 {
-  text-transform: capitalize;
   color:var(--text-muted)!important;
 }
 .info-1sUqUG:last-child::after {
-  content: 'Noir (0.1)';
-  white-space:pre;
-  position: relative;
-  line-height: 16px;
+  content: 'Noir v0.1';
   font-size: 12px;
-  width: 100%;
   color:var(--text-muted)!important;
 }
 
@@ -975,6 +972,23 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   position:absolute;
   left:38%;
 }
+.layer-1Ixpg3 .banner-1YaD3N {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  opacity: 0.4;
+  filter:brightness(.6);
+}
+.layer-1Ixpg3 .topSection-13QKHs header {
+  padding-top: 85px;
+}
+.note-3M15gE textarea {
+  background-color:rgb(10, 10, 10, .5);
+}
+.relationshipButtons-3ByBpj {
+  z-index:99999;
+}
 .profileBadges-2pItdR {
   display: flex;
   flex-direction: column;
@@ -999,9 +1013,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .userPopout-2j1gM4 .input-2g-os5, .userInfoSection-2u2hir > *, .aboutMeSection-PUghFQ, .customStatus-kFfkj5, .bodyTitle-2Az3VQ, .textarea-_59yqs, .marginBottom8-emkd0_.size14-3fJ-ot{
   text-align: center;
 }
-
-
-
 
 /* Cup Noodle Theme Developers Role thingy */
 .avatar-3QF_VA[data-user-id="586369284272554032"]::before,.avatar-3QF_VA[data-user-id="521340540411838464"]::before,
@@ -1221,6 +1232,9 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .scrollableContainer-15eg7h {
     border: 1px solid transparent;
 }
+.scrollableContainer-15eg7h.webkit-QgSAqd{
+  border-radius: 20px;
+}
 
 /* Theme Buttons */
 #app-mount .container-2nx-BQ, #app-mount .bd-switch-body {
@@ -1366,27 +1380,7 @@ color:rgb(0, 0, 0)
   filter: drop-shadow(0 0 0.35rem rgb(0, 0, 0));
 }
 
-
-.bannerPremium-kkSkPv,.banner-1YaD3N {
-  position:absolute;
-  height:100%;
-  width:100%;
-  filter:brightness(.3);
-  border-radius:5px;
-  bottom:0px;
-}
-.note-3M15gE > textarea,.note-Go5ZP2 > textarea,.bodyInnerWrapper-2bQs1k,.footer-3naVBw,.inputWrapper-1YNMmM > input,
-.role-2TIOKu {
-  background-color:transparent!important;
-}
-.avatar-3QF_VA,.wrapper-1VLyxH {
-  border-color:transparent!important;
-  background-color:transparent!important;
-}
-.buttonsWrapper-2ARRp1 > button {
-  background-color:rgba(107, 107, 107, 0.2)!important;
-}
-
-.scrollableContainer-15eg7h.webkit-QgSAqd{
-  border-radius: 20px;
+/* Gif Picker */
+.emptyHintCard-3Btf0V {
+  background-color:rgb(19, 19, 19)!important;
 }
