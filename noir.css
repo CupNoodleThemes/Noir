@@ -1388,3 +1388,13 @@ color:rgb(0, 0, 0)
 .header-Imy05m,.title-x4dI75 {
   text-align:center!important;
 }
+
+/* Block Quotes */
+.blockquoteDivider-363utW {
+  border-right: 3px solid rgb(0, 0, 0);
+  border-top-left-radius:90px!important;
+  border-bottom-left-radius:90px!important;
+}
+.blockquoteContainer-3VtvI1 > blockquote,.blockquoteDivider-363utW {
+  background-color:transparent!important;
+}
