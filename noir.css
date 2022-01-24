@@ -1,6 +1,6 @@
 /**
 * @name Noir
-* @author morg#0179, KNOCKDEMPUT#9568, carrot#881
+* @author CommieMorg#0153, KNOCKDEMPUT#9568, carrot#881
 * @authorId 812815155288473630
 * @description A Noir version of Discord
 * @invite knHgcbw9vs
@@ -22,7 +22,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css");
-
+@import url("https://crearts-community.github.io/Friends-Grid/src/source.css");
 
 @font-face {
   font-family: 'Noir';
@@ -30,6 +30,7 @@
 }
 
 :root {
+  background:var(--background-image) center/cover no-repeat;opacity:var(--opacity);
 	/* Radial Status */
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/*dms | MUST end in px */
   --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
@@ -69,6 +70,7 @@
   height: calc(100vh - 20px);
   border-radius: 8px;
 }
+
 body {
   background: linear-gradient(45deg, rgb(2, 2, 2), rgb(19, 19, 19));
 }
@@ -847,10 +849,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   border-radius:20px;
   position:relative;
 }
-.panels-3wFtMD, .sidebar-1tnWFu {
-  display: flex!important;
-  flex-direction: column-reverse!important;
-}
 
 /* Nitro Settings Icon */
 [fill="url(#uid_93)"] {
@@ -1235,21 +1233,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   border-radius: 20px;
 }
 
-/* Theme Buttons */
-#app-mount .container-2nx-BQ, #app-mount .bd-switch-body {
-  width: 20px;
-  height: 20px;
-  background: transparent !important;
-}
-#app-mount .container-2nx-BQ .slider-32CRPX, #app-mount .bd-switch-body .bd-switch-slider {
-  left: -6px !important;
-}
-#app-mount .container-2nx-BQ .slider-32CRPX > rect, #app-mount .bd-switch-body .bd-switch-slider rect {
-  height: 20px !important;
-  width: 20px !important;
-  rx: 5;
-  fill: var(--background-tertiary);
-}
+
 
 /* Compacted Searchbar */
 .theme-dark .option-2KkUJO:after {
@@ -1302,6 +1286,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 
 /* I legit do not know what the fuck this is -morgan */
 /* ...Fuck, me too morgan -carrot */
+/* UPDATE: it disables the settings animation to reduce lag! -morgan */
 .layer-86YKbF {
   transform: none !important;
   opacity: 1 !important;
@@ -1391,7 +1376,7 @@ color:rgb(0, 0, 0)
 
 /* Block Quotes */
 .blockquoteDivider-363utW {
-  border-right: 3px solid rgb(0, 0, 0);
+  border-right: 3px solid rgb(80, 80, 80);
   border-top-left-radius:90px!important;
   border-bottom-left-radius:90px!important;
 }
