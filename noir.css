@@ -462,7 +462,6 @@ body.foldercontentopened .base-2jDfDU {
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='20px' viewBox='0 0 24 24' width='20px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z'/%3E%3C/svg%3E") center/16px no-repeat;
   background: var(--text-muted);
   position: relative;
-  left: -6px;
   bottom: 2px;
 }
 
@@ -639,8 +638,9 @@ body.foldercontentopened .base-2jDfDU {
   color:var(--text-muted)!important;
 }
 .info-1sUqUG:last-child::after {
-  content: 'Noir v0.1';
+  content: 'Noir\a🍜 Cup Noodle Themes';
   font-size: 12px;
+  white-space:pre;
   color:var(--text-muted)!important;
 }
 
@@ -764,6 +764,12 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
       font-family: 'Noir';
       content: "Noir";
       margin-top:3px;
+  }
+  .wordmark-2u86JB::before {
+    content:"🍜";
+    position:absolute;
+    left:1315px;
+    font-size:20px;
   }
   .wordmark-2u86JB > svg {
      display:none;
@@ -947,6 +953,9 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   z-index:99999999!important;
   overflow:visible!important;
 }
+.premiumIconWrapper-32h0Ri,.gifTag-1TvtGO {
+  display:none;
+}
 .pencilContainer-18TrEJ {
   background-color:#0e0f0f 0.5;
   transition: all 1s ease;
@@ -975,7 +984,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   height: 100%;
   inset: 0;
   opacity: 0.4;
-  filter:brightness(.6);
+  filter:brightness(.6) blur(5px);
 }
 .layer-1Ixpg3 .topSection-13QKHs header {
   padding-top: 85px;
@@ -983,8 +992,8 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .note-3M15gE textarea {
   background-color:rgb(10, 10, 10, .5);
 }
-.relationshipButtons-3ByBpj {
-  z-index:99999;
+.relationshipButtons-3ByBpj,.customStatusActivity-WKWGD- {
+  z-index:99999!important;
 }
 .profileBadges-2pItdR {
   display: flex;
@@ -1369,7 +1378,7 @@ color:rgb(0, 0, 0)
   background-color:rgb(19, 19, 19)!important;
 }
 
-/* Centered Headers */
+/* some centered headers */
 .header-Imy05m,.title-x4dI75 {
   text-align:center!important;
 }
