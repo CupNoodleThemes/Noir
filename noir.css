@@ -62,7 +62,12 @@
   --FG-cards-banner-opacity-normal: 0;
   --FG-cards-banner-opacity-hover: 1.0;
   --FG-cards-banner-opacity-active: 1.0;
-}
+
+  /* Settings */
+    --chat-transparency:0.8;
+    --sides-transparency:0.9;
+    --sides-blur:5px;
+  }
 
 #app-mount {
   margin: 10px;
@@ -762,14 +767,18 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
     }
     .wordmark-2u86JB::after {
       font-family: 'Noir';
-      content: "Noir";
-      margin-top:3px;
+      content: "| BETA";
+      font-size:13px;
+      margin-top:19px;
+      position:absolute;
+      left:710px;
+      font-weight:100;
   }
   .wordmark-2u86JB::before {
-    content:"🍜";
+    content:"Noir";
     position:absolute;
-    left:1315px;
-    font-size:20px;
+    font-size:15px;
+    margin-top:10px;
   }
   .wordmark-2u86JB > svg {
      display:none;
@@ -1383,12 +1392,40 @@ color:rgb(0, 0, 0)
   text-align:center!important;
 }
 
+    /* Settings */
+
+/* Settings Transparency */
+.layer-86YKbF, .standardSidebarView-E9Pc3j, .contentRegionScroller-2_GT_N {
+  background:transparent;
+  background-color:rgba(10, 10, 10, 0.2);
+}
+.sidebarRegionScroller-FXiQOh {
+  background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur));
+  background-color:rgba(10, 10, 10, 0.5);
+}
+.contentRegion-3HkfJJ {
+  background:rgba(var(--color-primary),var(--chat-transparency));
+}
+.contentRegion-3HkfJJ {
+  backdrop-filter:blur(1.9px);
+  background-color:rgba(10, 10, 10, 0.1);
+}
+/* Settings User Modal */
+.avatarUploader-qEFQS2 {
+  transform:translate(90%);
+}
+
 /* Block Quotes */
 .blockquoteDivider-363utW {
   border-right: 3px solid rgb(80, 80, 80);
   border-top-left-radius:90px!important;
   border-bottom-left-radius:90px!important;
 }
-.blockquoteContainer-3VtvI1 > blockquote,.blockquoteDivider-363utW {
+blockquote,.blockquoteDivider-363utW {
   background-color:transparent!important;
+}
+
+/* Images */
+.imageWrapper-oMkQl4 {
+  background-color:transparent!important
 }
