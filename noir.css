@@ -770,7 +770,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
       content: "| BETA";
       font-size:13px;
       margin-top:19px;
-      position:absolute;
+      position:fixed;
       margin-left:710px;
       font-weight:100;
   }
