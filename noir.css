@@ -1346,25 +1346,26 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 /* Add server and public servers button(s) */
 .circleIconButton-1VxDrg{
   transition: all 0.2s ease-in;
-border-width: 2px;
-border-color: #ffffff;
-border-radius: 50%;
-border-style: solid;
-background-color: black;
+  border-width: 2px;
+  border-color: #8e9297;
+  border-radius: 50%;
+  border-style: solid;
+  background-color: black;
 }
 .circleIconButton-1VxDrg:hover{
   transition: all 0.4s ease-in;
-border-width: 2px;
-border-color: #000000;
-border-style: solid;
-background-color: #ffffff;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  background-color: #000000;
 }
 .circleIconButton-1VxDrg:nth-child(1){
-color:#ffffff
+  color:#8e9297
 }
 .circleIconButton-1VxDrg:hover:nth-child(1){
-color:rgb(0, 0, 0)
+  color:rgb(255, 255, 255)
 }
+
 
 /* shadows */
 .sidebar-1tnWFu,.container-ZMc96U,.nowPlayingColumn-1eCBCN {
