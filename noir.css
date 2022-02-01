@@ -1239,8 +1239,9 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .scrollableContainer-15eg7h.webkit-QgSAqd{
   border-radius: 20px;
 }
-
-
+.threadSuggestionBar-3ExSyc {
+  display:none;
+}
 
 /* Compacted Searchbar */
 .theme-dark .option-2KkUJO:after {
@@ -1418,4 +1419,9 @@ blockquote,.blockquoteDivider-363utW {
 /* Images */
 .imageWrapper-oMkQl4 {
   background-color:transparent!important
+}
+
+/* Toolbar */
+.anchor-1MIwyf[href="https://support.discord.com"]  {
+  display:none;
 }
