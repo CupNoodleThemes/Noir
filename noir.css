@@ -1397,7 +1397,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .contentRegion-3HkfJJ {
   background:rgba(var(--color-primary),var(--chat-transparency));
 }
-.contentRegion-3HkfJJ {
+.contentRegion-3HkfJJ,.sidebarScrollable-2mW9Ls {
   backdrop-filter:blur(1.9px);
   background-color:rgba(10, 10, 10, 0.1);
 }
