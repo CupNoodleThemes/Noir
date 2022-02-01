@@ -14,3 +14,19 @@
 .bd-settings-title,.colorMuted-HdFt4q {
     color:white;
   }
+
+/* Remove arrow because its buggy */
+.groupStart-3Mlgv1.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri::before {
+    content: '';
+    display: none;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.groupStart-3Mlgv1.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri::before {
+    content: '';
+    display: none;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
