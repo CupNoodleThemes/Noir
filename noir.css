@@ -1,25 +1,16 @@
-@import url("https://crearts-community.github.io/Friends-Grid/clients/betterdiscord.css");
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css);
-@import url(https://cxmmunist.github.io/theme-warnings/fullscreen-style/dark-mode/fullscreen-style.css);
-@import url("https://cxmmunist.github.io/Download-Icon-By-KC/main.css");
-@import url("https://cxmmunist.github.io/theme-warnings/fullscreen-style/dark-mode/fullscreen-style.css");
-@import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://spinfish.github.io/css-snippets/snippets/bsi-radialstatus-typing.css");
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url('https://kckarnige.github.io/transparent-menus/base.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+/* The import below is by CorellanStoma, I just made it into 1 file to cut down on imports -morgan */
+@import url('https://cxmmunist.github.io/external-files/FriendsGrid-CorellanStoma-Crearts.css');
 @import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css");
-@import url("https://crearts-community.github.io/Friends-Grid/src/source.css");
-
 @font-face {
   font-family: 'Noir';
   src: url('https://cxmmunist.github.io/external-files/Noir.woff') format('woff');
 }
 
 :root {
-  background:var(--background-image) center/cover no-repeat;opacity:var(--opacity);
 	/* Radial Status */
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/*dms | MUST end in px */
   --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
@@ -428,8 +419,8 @@ body.foldercontentopened .base-2jDfDU {
 
 /* Text Selection */
 ::selection {
-  color: #Adb1b1;
-  background: #0e0e0e;
+  color: #7a7a7a;
+  background: #030303;
 }
 
 /* Links */
@@ -1424,4 +1415,24 @@ blockquote,.blockquoteDivider-363utW {
 /* Toolbar */
 .anchor-1MIwyf[href="https://support.discord.com"]  {
   display:none;
+}
+
+/* Inbox Button */
+[data-list-item-id="guildsnav___inbox-button"] {
+  height:50px;
+  border-radius:50px;
+  width:50px;
+  transition:border-radius 0.1s ease-in-out;
+}
+[data-list-item-id="guildsnav___inbox-button"]:focus:active, [data-list-item-id="guildsnav___inbox-button"]:hover,
+[data-list-item-id="guildsnav___inbox-button"]:active {
+  border-radius:17px!important;
+}
+
+/* Codeblock */
+pre code, code td {
+  border:none!important;
+}
+pre code,.powercord-codeblock-copy-btn {
+  border-radius:10px!important;
 }
