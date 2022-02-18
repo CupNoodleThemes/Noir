@@ -5,6 +5,7 @@
 /* The import below is by CorellanStoma, I just made it into 1 file to cut down on imports -morgan */
 @import url('https://cxmmunist.github.io/external-files/FriendsGrid-CorellanStoma-Crearts.css');
 @import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css");
+
 @font-face {
   font-family: 'Noir';
   src: url('https://cxmmunist.github.io/external-files/Noir.woff') format('woff');
@@ -619,15 +620,16 @@ body.foldercontentopened .base-2jDfDU {
 }
 
 /* Info Section in Settings (bottom) */
-.info-1sUqUG .size12-oc4dx4 {
+.info-3pQQBb .size12-oc4dx4 {
   color:var(--text-muted)!important;
 }
-.info-1sUqUG:last-child::after {
+.info-3pQQBb:last-child::after {
   content: 'Noir\a🍜 Cup Noodle Themes';
   font-size: 12px;
   white-space:pre;
   color:var(--text-muted)!important;
 }
+
 
 /* Old Hypesquad Badges christian#1111 */
 img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052ef42f862ff18.svg"],img[src$="efcc751513ec434ea4275ecda4f61136.svg"]{content:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI2ZiYjg0OCIgZD0ibTIxLjU5MSA1LjMxOC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOTh6Ii8+PC9zdmc+");
@@ -745,15 +747,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
       display: flex;
       justify-content: center;
     }
-    .wordmark-2u86JB::after {
-      font-family: 'Noir';
-      content: "| BETA";
-      font-size:13px;
-      margin-top:19px;
-      position:fixed;
-      margin-left:75px;
-      font-weight:100;
-  }
   .wordmark-2u86JB::before {
     content:"Noir";
     position:absolute;
@@ -858,12 +851,15 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   background-color: rgb(19, 19, 19);
 }
 
-/* FriendGrid by CorellanStoma */
+/* FriendsGrid by CorellanStoma */
 .actionButton-3-B2x-,.discriminator-WV5K5s {
   display:none;
 }
 .userInfo-2WpsYG:before {
   border-radius: 7px 7px 0px 0px;
+}
+.peopleListItem-u6dGxF {
+  background-color:rgba(14, 14, 14, 0.527)!important;
 }
 
 /* Titlebar */
@@ -961,7 +957,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 }
 .avatar-2MSPKk {
   position:absolute;
-  left:30%;
+  left:31%;
 }
 .avatar-3QF_VA {
   position:absolute;
@@ -1359,7 +1355,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 }
 
 
-/* shadows */
+/* Shadows */
 .sidebar-1tnWFu,.container-ZMc96U,.nowPlayingColumn-1eCBCN {
   filter: drop-shadow(0 0 0.35rem rgb(0, 0, 0));
 }
@@ -1369,8 +1365,8 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   background-color:rgb(19, 19, 19)!important;
 }
 
-/* some centered headers */
-.header-Imy05m,.title-x4dI75 {
+/* Centered Headers */
+.header-Imy05m,.title-x4dI75,.title-3hptVQ,#uid_15-decription {
   text-align:center!important;
 }
 
@@ -1435,4 +1431,12 @@ pre code, code td {
 }
 pre code,.powercord-codeblock-copy-btn {
   border-radius:10px!important;
+}
+
+/* Now Playing Column (Active Now) */ 
+.itemCard-3Etziu {
+  transition:background-color 1s ease;
+}
+.itemCard-3Etziu:hover {
+  background-color:rgb(20, 20, 20)!important;
 }
