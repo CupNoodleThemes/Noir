@@ -364,11 +364,6 @@ html.platform-osx #app-mount #pluginNotice {
   top: 32px;
   z-index: 100000 !important;
 }
-
-body.foldercontentopened .base-2jDfDU {
-  transition: 0.2s ease !important;
-}
-
 /* Status Picker */
 #status-picker>.scroller-1bVxF5 {
   display: flex;
@@ -433,12 +428,11 @@ body.foldercontentopened .base-2jDfDU {
 .homeIcon-r0w4ny path {fill: transparent}
 .homeIcon-r0w4ny {
   color: transparent;
-  -webkit-mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_home.svg') center no-repeat;
-  mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_home.svg') center no-repeat;
+  -webkit-mask: url('https://raw.githubusercontent.com/cxmmunist/external-files/063b736877b965058b0b5e07cb0ae18201185f26/fa-house.svg') center no-repeat;
+  mask: url('https://raw.githubusercontent.com/cxmmunist/external-files/063b736877b965058b0b5e07cb0ae18201185f26/fa-house.svg') center no-repeat;
   background: white;
   width: 60%;
   height: 60%;
-  margin-top: 2px;
 }
 
 /* Edited Icon */
@@ -806,23 +800,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .item-3mHhwr[data-item-id="ONLINE"], .item-3mHhwr[data-item-id="ALL"], .item-3mHhwr[data-item-id="PENDING"], .item-3mHhwr[data-item-id="BLOCKED"], .item-3mHhwr[data-item-id="ADD_FRIEND"] {
   border-radius:20px;
 }
-/* Compacted Sidebar */
-.membersWrap-3NUR2t,
-.membersWrap-3NUR2t > div,.sidebar-1tnWFu,
- .sidebar-1tnWFu > div {
-  z-index: 100;
-  min-width:60px!important;
-  max-width:240px!important;
-  width:170px;
-  min-height: 100%;
-  transition: width .5s;
-}
-.membersWrap-3NUR2t:hover,
-.membersWrap-3NUR2t:hover > div,
-.sidebar-1tnWFu:hover, 
-.sidebar-1tnWFu:hover > div {
-  width:240px;
-} 
 
 /* User Modal */
 .container-1-ERn5{
@@ -916,10 +893,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .winButtonMinMax-3RsPUg:nth-child(2n):hover::after {
   background-color:rgba(0, 202, 78, 0.5);
 }
-/* close, minimize, maximize button transition */
-.winButtonClose-3Q8ZH5::after, .winButtonMinMax-3RsPUg::after{
-  transition: 0.3s ease;
-}
 
 
 /* User Popout (mr_miner's snippet helped with this) */
@@ -943,7 +916,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 }
 .pencilContainer-18TrEJ {
   background-color:#0e0f0f 0.5;
-  transition: all 1s ease;
   border: 1px solid transparent;
   outline:none;
 }
@@ -1154,19 +1126,6 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .menu-1QACrS {
   overflow:visible!important;
   z-index:99999!important;
-}
-.menu-1QACrS {
-  animation: custom-menu-animation 250ms ease;
-  transform-origin: top;
-}
-
-@keyframes custom-menu-animation {
-  0% {
-      transform: scaleY(0);
-  }
-  100% {
-      transform: scaleY(1);
-  }
 }
 
 /* Horizontally listed media */
